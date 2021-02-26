@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:background="@color/colorAccent1"
             android:fontFamily="sans-serif-condensed"
-            android:onClick="addRecord"
+            android:onClick="goCentral"
             android:text="CENTRAL"
             android:textSize="30sp"
             android:textStyle="bold" />
@@ -40,7 +40,7 @@
             android:layout_marginTop="20dp"
             android:background="@color/colorAccent1"
             android:fontFamily="sans-serif-condensed"
-            android:onClick="deleteRecord"
+            android:onClick="goWestern"
             android:text="WESTERN"
             android:textSize="30sp"
             android:textStyle="bold" />
@@ -52,7 +52,7 @@
             android:layout_marginTop="20dp"
             android:background="@color/colorAccent1"
             android:fontFamily="sans-serif-condensed"
-            android:onClick="updateRecord"
+            android:onClick="goHarbour"
             android:text="HARBOUR"
             android:textSize="30sp"
             android:textStyle="bold" />

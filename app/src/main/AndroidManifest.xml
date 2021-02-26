@@ -5,17 +5,17 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
-
     <application
-        android:allowBackup="true"
         android:name=".OfflineFirebase"
+        android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Localtrain"></activity>
-        <activity android:name=".TrainsStatus" />
+        <activity android:name=".SourceDestination"></activity>
+        <activity android:name=".Localtrain" />
+        <activity android:name=".AdminControl" />
         <activity android:name=".Login_activity" />
         <activity android:name=".HomeActivity" />
         <activity android:name=".Register" />
@@ -40,9 +40,9 @@
                 <data android:scheme="@string/fb_login_protocol_scheme" />
             </intent-filter>
         </activity>
-        <activity android:name=".AddData"></activity>
+        <activity android:name=".AddData" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".AdminControl">
+        <activity android:name=".TrainsStatus">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
